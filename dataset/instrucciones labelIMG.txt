@@ -1,0 +1,40 @@
+
+
+Instalar los requerimientos
+
+pip install pyqt5 lxml
+
+cd C:\ruta\al\label\labelImg
+
+
+Compilar el programa:
+
+
+pyrcc5 -o libs/resources.py resources.qrc
+python -m PyQt5.pyrcc_main -o libs/resources.py resources.qrc
+
+
+Y ejecutarlo poniendole de parametros la carpeta de dataset/imagenes del repo y el archivo classes.txt
+
+
+
+python labelImg.py C:\Users\Jesus\Documents\dataset\imagenes C:\Users\Jesus\Documents\dataset\classes.txt
+
+
+Despues hacer click en la pestaña a la izquierda que dice pascal VOC hasta cambiar a yolo
+
+Y hacer click en savechangeDir el cual es el directorio en el que se guardaran los labels, y seleccionar la carpeta del repo dataset/labels
+
+y empezar a marcar
+
+
+banco: Las letras que dicen banco de mexio
+hilo: el hilo de seguridas
+serie: el numero de serie grande que esta en la parte inferior
+serie2: el numero de serie chico que esta en la parte derecha de manera vertical
+numero: EL 500 multicolor
+texto: EL texto debajo del benito juares
+benito: Todo el benito juarez
+patron: Debajo de las 3 lineas de la parte superior izquierda hay un tipo tunel dibujado, es ese
+marca: Marca de agua
+carruaje: El carruaje y las personas de enmedio
