@@ -1,0 +1,11 @@
+banco
+hilo
+serie
+serie2
+numero
+texto
+benito
+patron
+marca
+carruaje
+billete
