@@ -19,7 +19,7 @@ Y ejecutarlo poniendole de parametros la carpeta de dataset/imagenes del repo y 
 
 
 python labelImg.py C:\Users\Jesus\Documents\dataset\imagenes C:\Users\Jesus\Documents\dataset\classes.txt
-
+python labelImg.py C:\Users\Jesus\Documents\GitHub\TT\dataset\imagenes C:\Users\Jesus\Documents\GitHub\TT\dataset\classes.txt
 
 Despues hacer click en la pestaña a la izquierda que dice pascal VOC hasta cambiar a yolo
 
