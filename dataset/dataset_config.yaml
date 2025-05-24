@@ -1,0 +1,6 @@
+path: C:/Users/Jesus/Documents/GitHub/TT/dataset
+train: images/train
+val: images/val
+
+nc: 11
+names: ['banco', 'hilo', 'serie', 'serie2', 'numero', 'texto', 'benito', 'patron', 'marca', 'carruaje', 'billete']

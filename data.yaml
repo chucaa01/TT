@@ -1,0 +1,22 @@
+train:
+  images: C:/Users/Jesus/Documents/GitHub/TT/dataset/imagenes/train
+  labels: C:/Users/Jesus/Documents/GitHub/TT/dataset/labels/train
+
+val:
+  images: C:/Users/Jesus/Documents/GitHub/TT/dataset/imagenes/val
+  labels: C:/Users/Jesus/Documents/GitHub/TT/dataset/labels/val
+
+nc: 11
+names: [
+  'banco',
+  'hilo',
+  'serie',
+  'serie2',
+  'numero',
+  'texto',
+  'benito',
+  'patron',
+  'marca',
+  'carruaje',
+  'billete'
+]
