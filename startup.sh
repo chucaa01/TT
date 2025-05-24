@@ -1,6 +1,9 @@
 #!/bin/bash
 
-# Instalar libGL para que OpenCV no falle
+# Importante: dar permisos de superusuario (solo necesario en App Service)
+export DEBIAN_FRONTEND=noninteractive
+
+# Instalar librerías del sistema necesarias para OpenCV, torch, matplotlib, etc.
 apt update && apt install -y \
     libglib2.0-0 \
     libgl1 \
@@ -21,7 +24,7 @@ apt update && apt install -y \
     libtbb-dev \
     libdc1394-22 \
     libdc1394-22-dev
-    
+
 # Ir al directorio donde está el manage.py y el wsgi.py
 cd backend
 
