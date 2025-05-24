@@ -1,0 +1,22 @@
+# Ignorar entornos virtuales
+env/
+env_yolo/
+
+# Ignorar archivos compilados de Python
+*.pyc
+__pycache__/
+
+# Ignorar archivos de base de datos locales
+*.sqlite3
+
+# Archivos de configuración local
+*.log
+*.env
+
+# Archivos generados por el sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de caché de YOLO u otros frameworks
+*.cache
+runs/
