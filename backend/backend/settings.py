@@ -125,3 +125,10 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+
+AZURE_STORAGE_ACCOUNT_NAME = "dbilletesescom"
+AZURE_STORAGE_ACCOUNT_KEY = "YXrFRSTMHGoybtuZK+klpgl2TSzY9M+27iD5Y2JdKRYzC2fQPrURYlSGz9/a6A20ks16I/ENGcY4+AStcvOk0g=="
+AZURE_FILE_SHARE_NAME = "dbilletesescom" 
+AZURE_FILE_DIRECTORY = "imagenes"  

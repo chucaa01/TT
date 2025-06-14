@@ -1,0 +1,116 @@
+{
+    "mensaje": "Billete guardado exitosamente.",
+    "billete_id": 54,
+    "detecciones": [
+        {
+            "candado": "benito",
+            "confianza": 0.945,
+            "coordenadas": [
+                738,
+                77,
+                1116,
+                526
+            ],
+            "clasificacion": "revisar"
+        },
+        {
+            "candado": "banco",
+            "confianza": 0.916,
+            "coordenadas": [
+                382,
+                31,
+                769,
+                163
+            ],
+            "clasificacion": "revisar"
+        },
+        {
+            "candado": "numero",
+            "confianza": 0.915,
+            "coordenadas": [
+                1110,
+                56,
+                1406,
+                211
+            ],
+            "clasificacion": "revisar"
+        },
+        {
+            "candado": "carruaje",
+            "confianza": 0.912,
+            "coordenadas": [
+                411,
+                159,
+                759,
+                421
+            ],
+            "clasificacion": "revisar"
+        },
+        {
+            "candado": "marca",
+            "confianza": 0.909,
+            "coordenadas": [
+                1105,
+                234,
+                1359,
+                554
+            ],
+            "clasificacion": "falso"
+        },
+        {
+            "candado": "texto",
+            "confianza": 0.906,
+            "coordenadas": [
+                775,
+                517,
+                1103,
+                610
+            ],
+            "clasificacion": "revisar"
+        },
+        {
+            "candado": "serie",
+            "confianza": 0.892,
+            "coordenadas": [
+                393,
+                529,
+                713,
+                605
+            ],
+            "clasificacion": "falso"
+        },
+        {
+            "candado": "patron",
+            "confianza": 0.871,
+            "coordenadas": [
+                23,
+                226,
+                175,
+                384
+            ],
+            "clasificacion": "revisar"
+        },
+        {
+            "candado": "hilo",
+            "confianza": 0.836,
+            "coordenadas": [
+                197,
+                19,
+                259,
+                645
+            ],
+            "clasificacion": "revisar"
+        },
+        {
+            "candado": "serie2",
+            "confianza": 0.812,
+            "coordenadas": [
+                1355,
+                255,
+                1427,
+                507
+            ],
+            "clasificacion": "falso"
+        }
+    ]
+}
