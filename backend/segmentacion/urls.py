@@ -1,6 +1,6 @@
 from django.urls import path
-#from .views import subir_imagen
+from .views import segmentar_imagen
 
 urlpatterns = [
-   # path('subir-imagen/', subir_imagen),
+    path('segmentar/', segmentar_imagen, name='segmentar_imagen'),
 ]
